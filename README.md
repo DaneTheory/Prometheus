@@ -3,9 +3,20 @@
 # Prometheus
 > _A starter boilerplate for creating NPM modules. Includes a few goodies to get you going like ES6 ready, ES5 compatibility and compilation, NPM Commands, and more!_
 
-[![Build Status](https://travis-ci.org/DaneTheory/Prometheus.svg?branch=master)](https://travis-ci.org/DaneTheory/Prometheus) [![Coverage Status](https://coveralls.io/repos/github/DaneTheory/Prometheus/badge.svg?branch=master)](https://coveralls.io/github/DaneTheory/Prometheus?branch=master)
+[![Build Status](https://travis-ci.org/DaneTheory/Prometheus.svg?branch=master)](https://travis-ci.org/DaneTheory/Prometheus) [![devDependencies Status](https://david-dm.org/DaneTheory/Prometheus/dev-status.svg)](https://david-dm.org/DaneTheory/Prometheus?type=dev) [![Coverage Status](https://coveralls.io/repos/github/DaneTheory/Prometheus/badge.svg?branch=master)](https://coveralls.io/github/DaneTheory/Prometheus?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github/DaneTheory/Prometheus/badge.svg)](https://snyk.io/test/github/DaneTheory/Prometheus)
+
 
 Want to create your own NPM module but have no idea where to start? Hate how tedious it is recreating common project files? Would you rather watch paint dry than setting up yet ANOTHER ES6 compatible development environment? My friend, you've come to the right place. This repo takes care of all the initial fluff with none of the initial fuss.
+
+---
+
+## Requirements
+###### __IMPORTANT: READ FIRST!__
+> This project runs using the latest stable version of NodeJS. To see what version of NodeJS is currently running on your system, run `node -v` in your terminal application.  
+
+> *__Current Stable Version of NodeJS:__* [![Node Version](https://badge.fury.io/js/node.svg)](https://badge.fury.io/js/node)
+
+> Update your systems version of NodeJS to match the version listed above before continuing.
 
 ---
 
