@@ -16,7 +16,9 @@
   },
   "author": "Branden Dane",
   "homepage": "https://github.com/DaneTheory/Prometheus",
-  "contributors": [ "Branden Dane || Email: <danetheory@gmail.com> Github: (https://github.com/DaneTheory) Website: (http://DaneTheory.com)" ],
+  "contributors": [
+    "Branden Dane || Email: <danetheory@gmail.com> Github: (https://github.com/DaneTheory) Website: (http://DaneTheory.com)"
+  ],
   "bugs": {
     "url": "https://github.com/DaneTheory/Prometheus/issues"
   },

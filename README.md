@@ -81,6 +81,7 @@ Want to create your own NPM module but have no idea where to start? Hate how ted
 git clone https://github.com/DaneTheory/Prometheus.git <YOUR_PROJECT_NAME>
 cd <path/to/YOUR_PROJECT_NAME>
 rm -rf .git
+npm i
 ```
 
 And that's it! Edit the `package.json` file with your own project information.
