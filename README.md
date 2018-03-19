@@ -1,4 +1,4 @@
-![Logo](https://s.gravatar.com/avatar/2331acd16c96421e9b685f8db1f8b8ec?size=496&default=retro)
+![Logo](https://mir-s3-cdn-cf.behance.net/project_modules/fs/6bcfa521547415.56304fdd8a6c6.jpg)
 
 
 
