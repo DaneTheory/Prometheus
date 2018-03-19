@@ -27,6 +27,20 @@ Want to create your own NPM module but have no idea where to start? Hate how ted
 
 
 
+## Installation
+> To get started with your new project, run the following commands:
+
+```
+git clone https://github.com/DaneTheory/Prometheus.git <YOUR_PROJECT_NAME>
+cd <path/to/YOUR_PROJECT_NAME>
+rm -rf .git
+npm i
+```
+
+And that's it! Edit the `package.json` file with your own project information.
+
+
+
 ### Feature Details
 
 * __ES6__
@@ -71,20 +85,6 @@ Want to create your own NPM module but have no idea where to start? Hate how ted
 
 * `npm run prepublish`
 > Hooks for module publication to NPM. Runs all checks (tests/linting) first and then, if successful, publishes to NPM.
-
-
-
-## Installation
-> To get started with your new project, run the following commands:
-
-```
-git clone https://github.com/DaneTheory/Prometheus.git <YOUR_PROJECT_NAME>
-cd <path/to/YOUR_PROJECT_NAME>
-rm -rf .git
-npm i
-```
-
-And that's it! Edit the `package.json` file with your own project information.
 
 
 
