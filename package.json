@@ -44,7 +44,6 @@
     "javascript"
   ],
   "devDependencies": {
-    "@babel/preset-env": "^7.0.0-beta.42",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.1",
     "babel-plugin-add-module-exports": "^0.2.1",
