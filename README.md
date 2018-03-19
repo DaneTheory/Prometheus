@@ -137,6 +137,8 @@ That's it! Your beautiful new project is now available as a brand new sweet NPM 
 
 # TODO
 - Change logo to something better
+- Fix Travis CI to connect to repo and reflect status in README correctly
+- Add other status descriptors like Travis CI to README
 - Update docs with better info and tutorials
 - Swap out `npm` in favor of `yarn`
 - Add `env` variable configuration for each build mode
