@@ -17,7 +17,7 @@
     "examples:ES5": "node examples/ES5/",
     "test:examples": "cross-env NODE_ENV=production npm run prepare && npm run clean:examples && npm run build:examples && npm run examples:ES5"
   },
-  "author": "Branden Dane",
+  "author": "Branden Dane <danetheory@gmail.com> (http://www.danetheory.com/)",
   "homepage": "https://github.com/DaneTheory/Prometheus",
   "contributors": [
     "Branden Dane || Email: <danetheory@gmail.com> Github: (https://github.com/DaneTheory) Website: (http://DaneTheory.com)"
