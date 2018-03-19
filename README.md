@@ -136,6 +136,7 @@ That's it! Your beautiful new project is now available as a brand new sweet NPM 
 
 
 # TODO
+- Change logo to something better
 - Update docs with better info and tutorials
 - Swap out `npm` in favor of `yarn`
 - Add `env` variable configuration for each build mode
