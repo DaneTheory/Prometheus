@@ -2,10 +2,11 @@
   "presets": [
     ["env", {
       "targets": {
-        "node": "8"
+        "node": "current"
       },
       "plugins": [
-        "istanbul"
+        "istanbul",
+        "add-module-exports"
       ]
     }]
   ]

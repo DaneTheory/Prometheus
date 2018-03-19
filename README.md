@@ -102,7 +102,7 @@ npm run coverage
 > Runs code coverage.
 
 ```
-npm run open:coverage
+npm run coverage:open
 ```
 > Opens code coverage report in browser as a human readable report.
 
