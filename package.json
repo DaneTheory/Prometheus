@@ -1,5 +1,5 @@
 {
-  "name": "prometheus",
+  "name": "prometheus-es6",
   "description": "A starter boilerplate for NPM modules. Includes a few goodies to get you going like ES6, commands for running tests/linting/builds/examples/CI/coverage/publishing, and more.",
   "version": "1.0.0",
   "main": "./lib/index.js",
