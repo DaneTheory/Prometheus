@@ -168,8 +168,8 @@ That's it! Your beautiful new project is now available as a brand new sweet NPM 
 - [ ] Add better `package.json` boilerplate. Best practices and such.
 - [ ] Add better `.babelrc`, `.editorconfig`, `.eslintignore`, `.eslintrc`, `.gitignore`, `.travis.yml`, `CONTRIBUTING.md`, etc. following best practices and such.
 - [ ] Improve NPM command `prepublish` to hook into NPM
-- [ ] Add git hook for github integration
-- Add NPM command for running in development mode
+- [ ] Add git hook for Github integration
+- [ ] Add NPM command for running in development mode
 
 
 ---
