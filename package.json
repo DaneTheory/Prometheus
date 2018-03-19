@@ -15,7 +15,7 @@
     "coverage:open": "npm run coverage && opn ./coverage/lcov-report/index.html",
     "prepare": "npm run clean && npm run lint && npm run test && npm run build",
     "examples:ES5": "node examples/ES5/",
-    "examples": "cross-env NODE_ENV=production npm run prepare && npm run clean:examples && npm run build:examples && npm run examples:ES5"
+    "test:examples": "cross-env NODE_ENV=production npm run prepare && npm run clean:examples && npm run build:examples && npm run examples:ES5"
   },
   "author": "Branden Dane",
   "homepage": "https://github.com/DaneTheory/Prometheus",
