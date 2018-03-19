@@ -12,18 +12,18 @@ Want to create your own NPM module but have no idea where to start? Hate how ted
 
 
 ## Features
-> Check out the __Feature Details__ section of this README for additional information regarding individual feature default configurations and, if needed, how to go about reconfiguring individual features for your project needs. To see a complete list of the available NPM commands provided by default in this project and what they do, check out the __NPM Commands__ section of this README.
+> Check out the [__Feature Details__](https://github.com/DaneTheory/Prometheus#feature-details) section of this README for additional information regarding individual feature default configurations and, if needed, how to go about reconfiguring individual features for your project needs. To see a complete list of the available NPM commands provided by default in this project and what they do, check out the [__NPM Commands__](https://github.com/DaneTheory/Prometheus#npm-commands) section of this README.
 
-* [ES6](https://babeljs.io)
+* [ES6](https://github.com/DaneTheory/Prometheus#feature-details)
 * Backwards compatibility for older versions of NodeJS
 * ES6 => ES5 production build ready
-* [Testing](https://mochajs.org)
-* [Linting](eslint.org)
+* [Testing](https://github.com/DaneTheory/Prometheus#feature-details)
+* [Linting](https://github.com/DaneTheory/Prometheus#feature-details)
 * All the basic, but necessary, NPM commands for writing code from development to production ready! Plus, hooks for publishing to NPM!
 * A folder for working examples of your module other Devs can use as reference.
 * Tutorials for configuring/reconfiguring everything here along the way included inside! Plus, nice NPM commands for removing all excess tutorial code when you're ready to get rollin' like a pro.
-* [Code Coverage](https://github.com/gotwarlost/istanbul)
-* [Continuos Integration](travis-ci.org)
+* [Code Coverage](https://github.com/DaneTheory/Prometheus#feature-details)
+* [Continuos Integration](https://github.com/DaneTheory/Prometheus#feature-details)
 
 
 
