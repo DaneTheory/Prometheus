@@ -60,34 +60,50 @@ And that's it! Edit the `package.json` file with your own project information.
 
 ## NPM Commands
 
-* `npm run clean`
+```
+npm run clean
+```
 > Removes the `./lib/` directory.
 
-* `npm run test`
+```
+npm run test
+```
 > Runs tests.
 
-* `npm run test:watch`
+```
+npm run test:watch
+```
 > Runs your tests, and then has them re-run on any file changes.
 
-* `npm run cover`
+```
+npm run cover
+```
 > Runs code coverage.
 
-* `npm run lint`
+```
+npm run lint
+```
 > Runs linting against codebase.
 
-* `npm run test:examples`
+```
+npm run test:examples
+```
 > Runs tests against examples provided in `./examples/` directory.
 
-* `npm run build`
+```
+npm run build
+```
 > Compiles all development code in `./src` to ES5. Then, the compiled code is output to the newly created `lib` directory found at the root of this project.
 
-* `npm run prepublish`
+```
+npm run prepublish
+```
 > Hooks for module publication to NPM. Runs all checks (tests/linting) first and then, if successful, publishes to NPM.
 
 ---
 
 ## Developing
-> (TODO) To start development on your project, run the following command:
+> To start development on your project, run the following command:
 
 ```
 npm run dev
@@ -114,7 +130,7 @@ npm run test:watch
 ---
 
 ## Production Build
-> (TODO) To create a production ready version of your project, run the following command:
+> To create a production ready version of your project, run the following command:
 
 ```
 npm run build
@@ -153,6 +169,8 @@ That's it! Your beautiful new project is now available as a brand new sweet NPM 
 - [ ] Add better `.babelrc`, `.editorconfig`, `.eslintignore`, `.eslintrc`, `.gitignore`, `.travis.yml`, `CONTRIBUTING.md`, etc. following best practices and such.
 - [ ] Improve NPM command `prepublish` to hook into NPM
 - [ ] Add git hook for github integration
+- Add NPM command for running in development mode
+
 
 ---
 
