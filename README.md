@@ -65,10 +65,10 @@ And that's it! Edit the `package.json` file with your own project information.
 * `npm run clean`
 > Removes the `./lib/` directory.
 
-*  `npm test`
+* `npm run test`
 > Runs tests.
 
-* `npm test:watch`
+* `npm run test:watch`
 > Runs your tests, and then has them re-run on any file changes.
 
 * `npm run cover`
@@ -103,14 +103,14 @@ Your project is now running in development mode! Get to makin' some sexy code.
 > To run tests, run the following command:
 
 ```
-`npm test`
+`npm run test`
 ```
 
 Your project tests status will output to the console.
 __Pro-Tip__: Run the following command to run tests that re-run on each file change!
 
 ```
-npm test:watch
+npm run test:watch
 ```
 
 
@@ -153,6 +153,8 @@ That's it! Your beautiful new project is now available as a brand new sweet NPM 
 - [ ] Add better README boilerplate. Best practices and such.
 - [ ] Add better `package.json` boilerplate. Best practices and such.
 - [ ] Add better `.babelrc`, `.editorconfig`, `.eslintignore`, `.eslintrc`, `.gitignore`, `.travis.yml`, `CONTRIBUTING.md`, etc. following best practices and such.
+- [ ] Improve NPM command `prepublish` to hook into NPM
+- [ ] Add git hook for github integration
 
 
 ## Contributing

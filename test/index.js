@@ -3,8 +3,8 @@ import { awesomeFunction } from '../src/awesomeModule';
 
 // or import * as awesomeModule from '../src/awesomeModule';
 
-describe('Awesome test.', () => {
-  it('should test awesome function', () => {
+describe('Example test', () => {
+  it('tests my example function', () => {
     assert(awesomeFunction(1, 1) === 2, 'Not awesome :(');
   });
 });
