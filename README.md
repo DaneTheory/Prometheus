@@ -170,6 +170,7 @@ That's it! Your beautiful new project is now available as a brand new sweet NPM 
 - [ ] Improve NPM command `prepublish` to hook into NPM
 - [ ] Add git hook for Github integration
 - [ ] Add NPM command for running in development mode
+- [ ] Update Istanbul to newer NYC. Then, include lcov reporter. Then, create NPM command to open coverage test output HTML. Then, include [Coveralls](https://coveralls.io/) support with status descriptor in README. 
 
 
 ---
