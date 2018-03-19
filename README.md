@@ -3,7 +3,7 @@
 # Prometheus
 > _A starter boilerplate for creating NPM modules. Includes a few goodies to get you going like ES6 ready, ES5 compatibility and compilation, NPM Commands, and more!_
 
-[![Build Status](https://travis-ci.org/DaneTheory/Prometheus.svg?branch=master)](https://travis-ci.org/DaneTheory/Prometheus)
+[![Build Status](https://travis-ci.org/DaneTheory/Prometheus.svg?branch=master)](https://travis-ci.org/DaneTheory/Prometheus) [![Coverage Status](https://coveralls.io/repos/github/DaneTheory/Prometheus/badge.svg?branch=master)](https://coveralls.io/github/DaneTheory/Prometheus?branch=master)
 
 Want to create your own NPM module but have no idea where to start? Hate how tedious it is recreating common project files? Would you rather watch paint dry than setting up yet ANOTHER ES6 compatible development environment? My friend, you've come to the right place. This repo takes care of all the initial fluff with none of the initial fuss.
 
@@ -54,7 +54,7 @@ And that's it! Edit the `package.json` file with your own project information.
 > Code Coverage provided via [Istanbul](https://github.com/gotwarlost/istanbul). As a plus, ES6 code support is included in coverage!
 
 ###### __CONTINUOS INTEGRATION__
-> Continuos Integration, a.k.a CI, provided via [TravisCI](travis-ci.org).
+> Continuos Integration, a.k.a CI, provided via [TravisCI](https://travis-ci.org).
 
 ---
 
