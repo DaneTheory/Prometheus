@@ -3,7 +3,7 @@
 # Prometheus
 > _A starter boilerplate for creating NPM modules. Includes a few goodies to get you going like ES6 ready, ES5 compatibility and compilation, NPM Commands, and more!_
 
-[![Build Status](https://travis-ci.org/DaneTheory/Prometheus.svg?branch=master)](https://travis-ci.org/DaneTheory/Prometheus) [![Coverage Status](https://coveralls.io/repos/github/DaneTheory/Prometheus/badge.svg?branch=master)](https://coveralls.io/github/DaneTheory/Prometheus?branch=master)
+[![Build Status](https://travis-ci.org/DaneTheory/Prometheus.svg?branch=master)](https://travis-ci.org/DaneTheory/Prometheus)[![Coverage Status](https://coveralls.io/repos/github/DaneTheory/Prometheus/badge.svg?branch=master)](https://coveralls.io/github/DaneTheory/Prometheus?branch=master)
 
 Want to create your own NPM module but have no idea where to start? Hate how tedious it is recreating common project files? Would you rather watch paint dry than setting up yet ANOTHER ES6 compatible development environment? My friend, you've come to the right place. This repo takes care of all the initial fluff with none of the initial fuss.
 
@@ -76,19 +76,9 @@ npm run test:watch
 > Runs your tests, and then has them re-run on any file changes.
 
 ```
-npm run cover
-```
-> Runs code coverage.
-
-```
 npm run lint
 ```
 > Runs linting against codebase.
-
-```
-npm run test:examples
-```
-> Runs tests against examples provided in `./examples/` directory.
 
 ```
 npm run build
@@ -96,9 +86,24 @@ npm run build
 > Compiles all development code in `./src` to ES5. Then, the compiled code is output to the newly created `lib` directory found at the root of this project.
 
 ```
-npm run prepublish
+npm run coverage
+```
+> Runs code coverage.
+
+```
+npm run open:coverage
+```
+> Opens code coverage report in browser as a human readable report.
+
+```
+npm run prepare
 ```
 > Hooks for module publication to NPM. Runs all checks (tests/linting) first and then, if successful, publishes to NPM.
+
+```
+npm run test:examples
+```
+> Runs tests against examples provided in `./examples/` directory.
 
 ---
 
@@ -117,7 +122,7 @@ Your project is now running in development mode! Get to makin' some sexy code.
 > To run tests, run the following command:
 
 ```
-`npm run test`
+npm run test
 ```
 
 Your project tests status will output to the console.
@@ -143,7 +148,7 @@ A production ready version of your project is now ready! You can find it in the 
 ## Deployment / Publication
 > To publish your project to NPM, run the following command:
 ```
-npm run prepublish
+npm run prepare
 ```
 
 That's it! Your beautiful new project is now available as a brand new sweet NPM module! Grab a beer, you deserve it!
@@ -170,7 +175,7 @@ That's it! Your beautiful new project is now available as a brand new sweet NPM 
 - [ ] Improve NPM command `prepublish` to hook into NPM
 - [ ] Add git hook for Github integration
 - [ ] Add NPM command for running in development mode
-- [ ] Update Istanbul to newer NYC. Then, include lcov reporter. Then, create NPM command to open coverage test output HTML. Then, include [Coveralls](https://coveralls.io/) support with status descriptor in README.
+- [X] Update Istanbul to newer NYC. Then, include lcov reporter. Then, create NPM command to open coverage test output HTML. Then, include [Coveralls](https://coveralls.io/) support with status descriptor in README.
 
 
 ---

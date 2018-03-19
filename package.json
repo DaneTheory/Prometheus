@@ -2,19 +2,17 @@
   "name": "prometheus",
   "description": "A starter boilerplate for NPM modules. Includes a few goodies to get you going like ES6, commands for running tests/linting/builds/examples/CI/coverage/publishing, and more.",
   "version": "1.0.0",
-  "private": false,
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
-    "istanbul": "cross-env NODE_ENV=development nyc mocha --require babel-core/register --recursive",
-    "test": "npm run istanbul",
-    "test:watch": "npm run istanbul -- --watch",
-    "test:examples": "npm run clean && npm run build && node examples/",
+    "test": "cross-env NODE_ENV=test nyc --reporter=lcov mocha --require babel-core/register --recursive",
+    "test:watch": "cross-env NODE_ENV=test npm run test -- --watch",
     "lint": "eslint src test",
-    "coverage": "cross-env NODE_ENV=development nyc report -- --require babel-core/register --recursive --reporter=coveralls",
-    "prod": "cross-env NODE_ENV=development babel src --out-dir lib",
-    "build": "npm run prod",
-    "prepublish": "npm run clean && npm run lint && npm run test && npm run build"
+    "build": "cross-env NODE_ENV=production babel src --out-dir lib",
+    "coverage": "cross-env NODE_ENV=test nyc report --reporter=text-lcov | coveralls",
+    "coverage:open": "npm run coverage && opn ./coverage/lcov-report/index.html",
+    "prepare": "npm run clean && npm run lint && npm run test && npm run build",
+    "test:examples": "npm run prepare && node examples/"
   },
   "author": "Branden Dane",
   "homepage": "https://github.com/DaneTheory/Prometheus",
@@ -56,6 +54,7 @@
     "eslint-plugin-react": "^7.6.1",
     "mocha": "^5.0.0",
     "nyc": "^11.6.0",
+    "opn-cli": "^3.1.0",
     "rimraf": "^2.6.2"
   }
 }
