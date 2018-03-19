@@ -17,10 +17,10 @@
     "examples:ES5": "node examples/ES5/",
     "test:examples": "cross-env NODE_ENV=production npm run prepare && npm run clean:examples && npm run build:examples && npm run examples:ES5"
   },
-  "author": "Branden Dane <danetheory@gmail.com> (http://www.danetheory.com/)",
+  "author": "Branden Dane <danetheory@gmail.com>",
   "homepage": "https://github.com/DaneTheory/Prometheus",
   "contributors": [
-    "Branden Dane || Email: <danetheory@gmail.com> Github: (https://github.com/DaneTheory) Website: (http://DaneTheory.com)"
+    "Branden Dane || Email: <danetheory@gmail.com> (https://github.com/DaneTheory)"
   ],
   "bugs": {
     "url": "https://github.com/DaneTheory/Prometheus/issues"
@@ -61,5 +61,11 @@
     "nyc": "^11.6.0",
     "opn-cli": "^3.1.0",
     "rimraf": "^2.6.2"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {}
 }
