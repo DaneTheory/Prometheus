@@ -168,24 +168,22 @@ That's it! Your beautiful new project is now available as a brand new sweet NPM 
 
 # TODO
 - [X] Change logo to something better
-- [ ] Fix Travis CI to connect to repo and reflect status in README correctly
-- [ ] Add other status descriptors like Travis CI to README
+- [X] Fix Travis CI to connect to repo and reflect status in README correctly
+- [X] Add other status descriptors like Travis CI to README
 - [ ] Update docs with better info and tutorials
 - [ ] Swap out `npm` in favor of `yarn`
 - [ ] Add `env` variable configuration for each build mode
 - [ ] Add NPM commands to run development version of project
 - [ ] Add NPM commands to strip out demo code/comments
 - [ ] Better folder hierarchy
-- [ ] Alternative to `babel-preset-env`?
 - [ ] Better way to consolidate NPM commands?
 - [ ] NPM command to start new project that includes console prompts to handle manual file edits for project info automatically.
 - [X] Add better markdown for README. (i.e. checkboxes for README)
 - [ ] Add better README boilerplate. Best practices and such.
 - [ ] Add better `package.json` boilerplate. Best practices and such.
 - [ ] Add better `.babelrc`, `.editorconfig`, `.eslintignore`, `.eslintrc`, `.gitignore`, `.travis.yml`, `CONTRIBUTING.md`, etc. following best practices and such.
-- [ ] Improve NPM command `prepublish` to hook into NPM
+- [ ] Add NPM command `publish` or `deploy` to hook into NPM
 - [ ] Add git hook for Github integration
-- [ ] Add NPM command for running in development mode
 - [X] Update Istanbul to newer NYC. Then, include lcov reporter. Then, create NPM command to open coverage test output HTML. Then, include [Coveralls](https://coveralls.io/) support with status descriptor in README.
 
 
